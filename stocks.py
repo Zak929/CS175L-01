@@ -21,9 +21,9 @@ sellingCommission = COMMISSION_RATE*stockSoldFor
 totalReceived = stockSoldFor - sellingCommission
 profitOrLoss = totalReceived - totalPaid
 totalCommission = purchaseCommission + sellingCommission
-print('Amount paod for stock: $',amountPaidForStock)
-print('Commission paid on the purchase: $',purchaseCommission)
-print('Amount the stock sold for: $',stockSoldFor)
-print('Commission paid on the sale: $',sellingCommission)
-print('Total commission paid: $',totalCommission)
-print('Profit (or loss if negative): $',profitOrLoss)
+print(f'Amount paid for stock: ${amountPaidForStock}')
+print(f'Commission paid on the purchase: ${purchaseCommission}')
+print(f'Amount the stock sold for: ${stockSoldFor}')
+print(f'Commission paid on the sale: ${sellingCommission}')
+print(f'Total commission paid: ${totalCommission}')
+print(f'Profit (or loss if negative): ${profitOrLoss}')
