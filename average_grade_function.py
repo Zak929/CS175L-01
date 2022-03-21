@@ -53,7 +53,7 @@ def determine_grade(g1,g2,g3,g4,g5,ga):
     elif g2 >= 60:
         g2 = "D"
     else:
-        g3 = "F"
+        g2 = "F"
     if g3 >= 90:
         g3 = "A"
     elif g3 >= 80:
@@ -63,7 +63,7 @@ def determine_grade(g1,g2,g3,g4,g5,ga):
     elif g3 >= 60:
         g3 = "D"
     else:
-        g4 = "F"
+        g3 = "F"
     if g4 >= 90:
         g4 = "A"
     elif g4 >= 80:
